@@ -16,8 +16,8 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/second.html', function (req, res) {
   res.sendFile(path.join(__dirname, '', 'second.html'));
 });
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/ui/1992293600-attractive-green-nature.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '1992293600-attractive-green-nature.jpg'));
 });
 
 
