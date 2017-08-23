@@ -4,7 +4,13 @@ var element=document.getElementById('main-text');
 element.innerHTML='new value';
 //move the image
 var img=document.getElementById('pic');
+var marginLeft=0;
+function moveright()
+{
+    marginleft=marginleft+10;
+    img.style.marginLeft=marginLeft+'px';
+}
 img.onclick = function()
 {
-    img.style.marginLeft= '100px' ;
+    var interval=setInterval(moveright,100);
 };
